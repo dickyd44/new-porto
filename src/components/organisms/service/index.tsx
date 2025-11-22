@@ -55,7 +55,7 @@ export default function ServiceSection() {
               viewport={{ amount: 0, once: true }}
               key={idx}
             >
-              <div className="cursor-default border border-slate-400 hover:bg-galaxy_core hover:border-white hover:text-white group transition-all duration-300 h-full p-6 rounded-xl space-y-4">
+              <div className="bg-white shadow-md cursor-default border border-slate-400 hover:bg-galaxy_core hover:border-white hover:text-white group transition-all duration-300 h-full p-6 rounded-xl space-y-4">
                 <div>
                   <div className="rounded-full p-4 mb-5 border-dotted border-2 border-galaxy_core text-galaxy_core w-[86px] group-hover:border-white group-hover:text-white transition duration-200 ease-in-out">
                     {React.createElement(card.icon)}
@@ -65,7 +65,7 @@ export default function ServiceSection() {
                   </div>
                 </div>
                 <div>
-                  <div className="text-slate-500 group-hover:text-zinc-200 mb-4">
+                  <div className="text-slate-500 text-sm group-hover:text-zinc-200 mb-4">
                     {truncatedIndex[idx]
                       ? card.subtitle
                       : `${card.subtitle.substring(0, 141)}...`}

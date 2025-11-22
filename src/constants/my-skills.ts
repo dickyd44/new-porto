@@ -4,7 +4,7 @@ import {
   VueJsIcon,
   LaravelIcon,
   PostgresIcon,
-  MysqlIcon,
+  WordpressIcon,
 } from "@/src/assets/icon/icon-skills";
 
 export const SKILLS = [
@@ -13,7 +13,7 @@ export const SKILLS = [
   { title: "prisma", percentage: 65 },
   { title: "laravel", percentage: 88 },
   { title: "postgresql", percentage: 71 },
-  { title: "mysql", percentage: 80 },
+  { title: "Wordpress", percentage: 95 },
 ];
 
 export const STACK = [
@@ -22,5 +22,5 @@ export const STACK = [
   { icon: PrismaIcon, title: "prisma" },
   { icon: LaravelIcon, title: "laravel" },
   { icon: PostgresIcon, title: "postgresql" },
-  { icon: MysqlIcon, title: "mysql" },
+  { icon: WordpressIcon, title: "wordpress" },
 ];

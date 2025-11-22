@@ -45,7 +45,7 @@ export default function ExperienceSection() {
               viewport={{ amount: 0, once: true }}
               key={idx}
             >
-              <div className="relative border border-slate-400 rounded-sm h-full overflow-hidden">
+              <div className="relative border bg-slate-100 border-slate-400 rounded-md shadow-md h-full overflow-hidden">
                 <div className="relative w-full overflow-hidden group">
                   <Image
                     priority
@@ -55,7 +55,7 @@ export default function ExperienceSection() {
                     height={1000}
                     className="object-cover object-top h-80 md:h-64 lg:h-80 xl:h-64 2xl:h-80 group-hover:scale-105 transition-all duration-300 ease-in-out coursor-pointer"
                   />
-                  <div className="h-full absolute inset-0 bg-black bg-opacity-100 opacity-0 group-hover:opacity-50 transition-opacity duration-300">
+                  <div className="h-full absolute inset-0 bg-black bg-opacity-100 opacity-0 group-hover:opacity-60 transition-opacity duration-300">
                     <div className="flex flex-col items-center justify-around h-full">
                       <p className="text-xl capitalize font-semibold text-white mb-10">
                         {experience.company}

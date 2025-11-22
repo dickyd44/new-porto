@@ -45,7 +45,7 @@ export default function PortfolioSection() {
                     height={1000}
                     className="h-[390px] 2xl:h-[380px] xl:h-[330px] lg:h-[280px] md:h-[350px] w-full object-cover rounded-sm group-hover:scale-105 transition-all duration-300 ease-in-out coursor-pointer"
                   />
-                  <div className="z-0 absolute inset-0 bg-black rounded-sm bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center">
+                  <div className="z-0 absolute inset-0 bg-black rounded-sm bg-opacity-50 opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex flex-col items-center justify-center">
                     <p className="capitalize text-xl font-semibold text-white mb-3">
                       {img.project}
                     </p>

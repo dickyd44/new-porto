@@ -14,8 +14,8 @@ export const CONTACTS = [
   {
     icon: LocationIcon,
     title: "Our Address",
-    core_title: "Address",
-    subtitle: "Tiban Indah Mc-Dermott Blok K.20",
+    core_title: "State",
+    subtitle: "Batam, Indonesia",
   },
   {
     icon: PhoneIcon,
