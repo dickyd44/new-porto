@@ -11,6 +11,7 @@ const eslintConfig = defineConfig([
       "react-hooks/exhaustive-deps": "off", // opsional
       "@typescript-eslint/no-explicit-any": "off",
       "react-hooks/set-state-in-effect": "off",
+      "@typescript-eslint/no-unused-vars": "off",
     },
   },
   globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts"]),
