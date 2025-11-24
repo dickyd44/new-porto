@@ -58,19 +58,27 @@ export default function HomeSection() {
         </motion.h2>
 
         <h3 className="text-xl md:text-2xl font-medium cursor-default">
-          I Am a Passionate {""} <br className="block sm:hidden" />
+          I Am a Passionate <br className="block sm:hidden" />
           {texts[currentTextIndex].split("").map((letter, index) => (
             <span key={index} className="relative inline-block">
               <motion.span
                 initial={{ opacity: 0, x: -20 }}
                 animate={index < currentLetterIndex ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0 }}
-                className="border-b pb-0.5"
+                className="border-b pb-0.5 inline-block"
               >
                 {letter === " " ? "\u00A0" : letter}
               </motion.span>
+
+              {/* cursor mengikuti huruf terakhir yang sudah muncul */}
               {index === currentLetterIndex - 1 && (
-                <span className="ml-0.5 border-r-2" />
+                <span
+                  className={`absolute -right-1 top-0 h-8 border-r-2 ${
+                    currentLetterIndex === texts[currentTextIndex].length
+                      ? "animate-blink"
+                      : ""
+                  }`}
+                />
               )}
             </span>
           ))}

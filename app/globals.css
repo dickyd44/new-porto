@@ -20,3 +20,19 @@ body {
   max-height: 100%;
   overflow-y: auto;
 }
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-blink {
+  animation: blink 0.8s infinite;
+}
