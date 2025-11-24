@@ -73,7 +73,7 @@ export default function HomeSection() {
               {/* cursor mengikuti huruf terakhir yang sudah muncul */}
               {index === currentLetterIndex - 1 && (
                 <span
-                  className={`absolute -right-1 top-0 h-8 border-r-2 ${
+                  className={`absolute -right-1 top-0 h-7 md:h-8 border-r-2 ${
                     currentLetterIndex === texts[currentTextIndex].length
                       ? "animate-blink"
                       : ""
