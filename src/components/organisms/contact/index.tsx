@@ -13,7 +13,7 @@ export default function ContactSection() {
       id="contact"
       className="bg-slate-200 flex items-center py-28 transition-colors duration-300"
     >
-      <div className="container px-5 lg:px-8 md:mx-auto">
+      <div className="container px-5 md:mx-auto lg:px-10">
         <motion.div
           initial="hidden"
           whileInView="visible"

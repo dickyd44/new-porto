@@ -13,7 +13,7 @@ export default function AboutSection() {
       id="about"
       className="bg-slate-200 min-h-screen flex items-center transition-colors duration-300 "
     >
-      <div className="container px-5 lg:px-8 md:mx-auto py-20">
+      <div className="container px-5 md:mx-auto lg:px-10 py-20">
         <motion.div
           initial="hidden"
           whileInView="visible"

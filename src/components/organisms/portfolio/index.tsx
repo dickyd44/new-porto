@@ -15,7 +15,7 @@ export default function PortfolioSection() {
 
   return (
     <section id="portfolio" className="min-h-screen flex items-center">
-      <div className="container px-5 lg:px-8 md:mx-auto py-20">
+      <div className="container px-5 md:mx-auto lg:px-10 py-20">
         <motion.div
           initial="hidden"
           whileInView="visible"

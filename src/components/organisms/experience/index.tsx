@@ -25,7 +25,7 @@ export default function ExperienceSection() {
 
   return (
     <section id="experience" className="flex items-center py-28">
-      <div className="container px-5 lg:px-8 md:mx-auto">
+      <div className="container px-5 md:mx-auto lg:px-10">
         <motion.div
           initial="hidden"
           whileInView="visible"
