@@ -27,7 +27,7 @@ export default function ServiceSection() {
   return (
     <section
       id="service"
-      className="bg-slate-200 min-h-screen flex items-center transition-colors duration-300"
+      className="bg-slate-200 dark:bg-gray-900 min-h-screen flex items-center transition-colors duration-300"
     >
       <div className="container px-5 md:mx-auto lg:px-10 py-20">
         <motion.div

@@ -11,7 +11,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="bg-slate-200 min-h-screen flex items-center transition-colors duration-300 "
+      className="bg-slate-200 dark:bg-gray-900 min-h-screen flex items-center transition-colors duration-300"
     >
       <div className="container px-5 md:mx-auto lg:px-10 py-20">
         <motion.div
@@ -30,7 +30,7 @@ export default function AboutSection() {
             variants={appearsLeft}
             viewport={{ amount: 0, once: true }}
           >
-            <div className="p-5.5 bg-slate-300 rounded">
+            <div className="p-5.5 bg-slate-300 dark:bg-gray-700 rounded">
               <Image
                 priority
                 src={Profile}
@@ -48,14 +48,14 @@ export default function AboutSection() {
             variants={appearsRight}
             viewport={{ amount: 0, once: true }}
           >
-            <h2 className="text-4xl font-bold">I&apos;m Dicky Darmawan</h2>
-            <h4 className="capitalize text-xl font-light py-5">
+            <h2 className="text-4xl font-bold dark:text-white">I&apos;m Dicky Darmawan</h2>
+            <h4 className="capitalize text-xl font-light py-5 dark:text-gray-300">
               a lead&nbsp;
-              <span className="text-galaxy_core font-semibold">
+              <span className="text-galaxy_core dark:text-galaxy font-semibold">
                 front-end developer
               </span>{" "}
               based in{" "}
-              <span className="text-galaxy_core font-semibold">batam</span>
+              <span className="text-galaxy_core dark:text-galaxy font-semibold">batam</span>
             </h4>
             <p className="text-base text-zinc-500 dark:text-zinc-400">
               I design and develop services for customers of all sizes,

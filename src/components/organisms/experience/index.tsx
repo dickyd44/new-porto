@@ -24,7 +24,7 @@ export default function ExperienceSection() {
   const displayExperience = showMore ? EXPERIENCE : EXPERIENCE.slice(0, 3);
 
   return (
-    <section id="experience" className="flex items-center py-28">
+    <section id="experience" className="flex items-center py-28 dark:text-white transition-colors duration-300">
       <div className="container px-5 md:mx-auto lg:px-10">
         <motion.div
           initial="hidden"
@@ -45,7 +45,7 @@ export default function ExperienceSection() {
               viewport={{ amount: 0, once: true }}
               key={idx}
             >
-              <div className="relative border bg-slate-100 border-slate-400 rounded-md shadow-md h-full overflow-hidden">
+              <div className="relative border bg-slate-100 dark:bg-gray-700 border-slate-400 dark:border-gray-600 rounded-md shadow-md h-full overflow-hidden">
                 <div className="relative w-full overflow-hidden group">
                   <Image
                     priority

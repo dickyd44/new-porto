@@ -11,7 +11,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="bg-slate-200 flex items-center py-28 transition-colors duration-300"
+      className="bg-slate-200 dark:bg-gray-900 flex items-center py-28 transition-colors duration-300"
     >
       <div className="container px-5 md:mx-auto lg:px-10">
         <motion.div
@@ -29,7 +29,7 @@ export default function ContactSection() {
             whileInView="visible"
             variants={appearsLeft}
             viewport={{ amount: 0, once: true }}
-            className="col-span-2 bg-white p-5 rounded-sm shadow-lg"
+            className="col-span-2 bg-white dark:bg-gray-800 p-5 rounded-sm shadow-lg"
           >
             <FormContact />
           </motion.div>
@@ -49,7 +49,7 @@ export default function ContactSection() {
                 whileInView="visible"
                 viewport={{ amount: 0, once: true }}
               >
-                <div className="p-5 w-full mb-6 bg-white rounded-sm shadow-lg">
+                <div className="p-5 w-full mb-6 bg-white dark:bg-gray-800 rounded-sm shadow-lg">
                   <div className="flex items-start gap-4">
                     <div className="bg-galaxy_core p-3 rounded-full text-white">
                       {React.createElement(contact.icon)}
@@ -71,7 +71,7 @@ export default function ContactSection() {
               whileInView="visible"
               viewport={{ amount: 0, once: true }}
             >
-              <div className="flex bg-white rounded-sm shadow-lg justify-center items-start gap-4 p-5">
+              <div className="flex bg-white dark:bg-gray-800 rounded-sm shadow-lg justify-center items-start gap-4 p-5">
                 {SOCIAL_MEDIA.map((sosmed, idx) => (
                   <Link
                     className="bg-galaxy_core text-white rounded-full p-3"

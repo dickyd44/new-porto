@@ -6,7 +6,7 @@ export default function FormContact() {
   return (
     <div className="h-full flex flex-col">
       <header className="mb-6">
-        <span className="text-2xl font-normal">SAY SOMETHING</span>
+        <span className="text-2xl font-normal dark:text-white">SAY SOMETHING</span>
       </header>
       <div className="grow">
         <form ref={form} onSubmit={sendEmail} className="flex flex-col h-full">
@@ -16,7 +16,7 @@ export default function FormContact() {
               name="from_name"
               placeholder="Name *"
               required
-              className="border-b border-slate-500 focus:ring-0 focus:outline-none py-3"
+              className="border-b border-slate-500 dark:border-gray-500 focus:ring-0 focus:outline-none py-3 bg-transparent dark:text-white"
             />
 
             <input
@@ -24,7 +24,7 @@ export default function FormContact() {
               name="reply_to"
               placeholder="Email *"
               required
-              className="border-b border-slate-500 focus:ring-0 focus:outline-none py-3"
+              className="border-b border-slate-500 dark:border-gray-500 focus:ring-0 focus:outline-none py-3 bg-transparent dark:text-white"
             />
           </div>
 

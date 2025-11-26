@@ -8,7 +8,7 @@ import React from "react";
 
 export default function MySkillsSection() {
   return (
-    <section className="container px-5 md:mx-auto lg:px-10 py-24">
+    <section className="container px-5 md:mx-auto lg:px-10 py-24 dark:text-white transition-colors duration-300">
       {/* Skills Section */}
       <motion.div
         initial="hidden"

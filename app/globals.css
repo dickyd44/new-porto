@@ -21,6 +21,14 @@ body {
   overflow-y: auto;
 }
 
+html.dark {
+  background-color: #111827;
+}
+
+html.dark body {
+  background-color: #111827;
+}
+
 @keyframes blink {
   0% {
     opacity: 1;
