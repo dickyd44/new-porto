@@ -22,7 +22,7 @@ export default function HomeSection() {
       variants={appearsLeft}
       viewport={{ amount: 0, once: true }}
       id="home"
-      className="container px-5 md:mx-auto lg:px-10 relative flex items-center min-h-screen dark:text-white transition-colors duration-300"
+      className="container px-5 md:mx-auto lg:px-10 relative flex items-center min-h-screen transition-colors duration-300"
     >
       <div className="flex flex-col justify-center space-y-4">
         <h4 className="text-xl md:text-2xl font-medium">Hello there...</h4>

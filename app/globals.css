@@ -21,12 +21,20 @@ body {
   overflow-y: auto;
 }
 
-html.dark {
-  background-color: #111827;
+html.dark body {
+  background-color: var(--color-galaxy_dark);
+  color: var(--color-light);
+  transition: background-color 0.3s, color 0.3s;
 }
 
-html.dark body {
-  background-color: #111827;
+html.dark {
+  background-color: var(--color-galaxy_core);
+}
+
+html.dark {
+  background-color: var(--color-galaxy);
+  color: white;
+  border-color: var(--color-galaxy_core);
 }
 
 @keyframes blink {
