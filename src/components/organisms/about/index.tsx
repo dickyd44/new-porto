@@ -98,7 +98,7 @@ export default function AboutSection() {
             <div className="flex justify-center md:justify-start items-center mt-14 xl:mt-10">
               <Link
                 className="bg-galaxy text-white py-3 px-6 rounded hover:bg-galaxy_core transition duration-300"
-                href="/Resume_Dicky Darmawan.pdf"
+                href="/My_CV.pdf"
                 target="_blank"
               >
                 REVIEW CV
