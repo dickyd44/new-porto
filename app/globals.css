@@ -21,18 +21,8 @@ body {
   overflow-y: auto;
 }
 
-html.dark body {
+html.dark {
   background-color: var(--color-galaxy_dark);
-  color: var(--color-light);
-  transition: background-color 0.3s, color 0.3s;
-}
-
-html.dark {
-  background-color: var(--color-galaxy_core);
-}
-
-html.dark {
-  background-color: var(--color-galaxy);
   color: white;
   border-color: var(--color-galaxy_core);
 }

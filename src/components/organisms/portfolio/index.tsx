@@ -14,7 +14,10 @@ export default function PortfolioSection() {
   const displayImages = showMore ? IMAGES : IMAGES.slice(0, 4);
 
   return (
-    <section id="portfolio" className="min-h-screen flex items-center dark:text-white transition-colors duration-300">
+    <section
+      id="portfolio"
+      className="min-h-screen flex items-center transition-colors duration-300"
+    >
       <div className="container px-5 md:mx-auto lg:px-10 py-20">
         <motion.div
           initial="hidden"

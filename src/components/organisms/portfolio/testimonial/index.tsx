@@ -12,7 +12,7 @@ export default function TestimonialSection() {
   const slideCount = Math.ceil(TESTIMONIALS.length / 2);
 
   return (
-    <section className="bg-slate-200 dark:bg-gray-900 flex items-center py-28 transition-colors duration-300">
+    <section className="flex items-center py-28 transition-colors duration-300">
       <div className="container px-5 md:mx-auto lg:px-10">
         <motion.div
           initial="hidden"

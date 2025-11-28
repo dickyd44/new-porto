@@ -8,7 +8,7 @@ import React from "react";
 
 export default function MySkillsSection() {
   return (
-    <section className="container px-5 md:mx-auto lg:px-10 py-24 dark:text-white transition-colors duration-300">
+    <section className="container px-5 md:mx-auto lg:px-10 py-24 transition-colors duration-300">
       {/* Skills Section */}
       <motion.div
         initial="hidden"
@@ -33,11 +33,11 @@ export default function MySkillsSection() {
               <div key={index} ref={ref} className="mb-4">
                 <div className="flex justify-between mb-1.5">
                   <span className="font-normal capitalize">{skill.title}</span>
-                  <span className="text-zinc-600 font-normal">{count}%</span>
+                  <span className="text-zinc-500 font-normal">{count}%</span>
                 </div>
                 <div className="w-full bg-light rounded-full h-1.5">
                   <motion.div
-                    className="bg-galaxy_core h-1.5 rounded-full"
+                    className="bg-galaxy h-1.5 rounded-full"
                     initial={{ width: 0 }}
                     transition={{ duration: 0.8 }}
                     animate={{ width: inView ? `${skill.percentage}%` : "0%" }}
@@ -59,7 +59,7 @@ export default function MySkillsSection() {
           {STACK.map((stack, index) => (
             <div
               key={index}
-              className="flex items-center justify-center border-2 rounded-md border-galaxy_core text-galaxy_core hover:bg-galaxy_core hover:text-white transition-all duration-200 ease-in-out p-4 text-center cursor-default"
+              className="flex items-center justify-center border-2 rounded-md border-galaxy text-galaxy hover:bg-indigo-500 hover:text-white transition-all duration-200 ease-in-out p-4 text-center cursor-default"
             >
               <div className="text-3xl mb-1 mr-2">
                 {React.createElement(stack.icon)}

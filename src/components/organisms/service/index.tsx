@@ -27,7 +27,7 @@ export default function ServiceSection() {
   return (
     <section
       id="service"
-      className="bg-slate-200 dark:bg-gray-900 min-h-screen flex items-center transition-colors duration-300"
+      className="min-h-screen flex items-center transition-colors duration-300"
     >
       <div className="container px-5 md:mx-auto lg:px-10 py-20">
         <motion.div
@@ -55,7 +55,7 @@ export default function ServiceSection() {
               viewport={{ amount: 0, once: true }}
               key={idx}
             >
-              <div className="bg-white shadow-md cursor-default border border-slate-400 hover:bg-galaxy_core hover:border-white hover:text-white group transition-all duration-300 h-full p-6 rounded-xl space-y-4">
+              <div className="bg-slate-100 text-black shadow-md cursor-default border border-slate-400 hover:bg-galaxy_core hover:border-white hover:text-white group transition-all duration-300 h-full p-6 rounded-xl space-y-4">
                 <div>
                   <div className="rounded-full p-4 mb-5 border-dotted border-2 border-galaxy_core text-galaxy_core w-[86px] group-hover:border-white group-hover:text-white transition duration-200 ease-in-out">
                     {React.createElement(card.icon)}

@@ -10,7 +10,7 @@ export default function Navbar({
 }) {
   return (
     <section className="block lg:hidden">
-      <div className="w-full fixed z-40 bg-white dark:bg-gray-800 flex justify-between items-center p-3 transition-colors duration-300 shadow-md">
+      <div className="w-full fixed z-40 flex justify-between items-center p-3 transition-colors duration-300 shadow-md">
         <p className="text-xl font-bold text-galaxy_core dark:text-galaxy">
           dicky.
         </p>
