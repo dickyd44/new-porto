@@ -48,9 +48,7 @@ export default function AboutSection() {
             variants={appearsRight}
             viewport={{ amount: 0, once: true }}
           >
-            <h2 className="text-4xl font-bold dark:text-white">
-              I&apos;m Dicky Darmawan
-            </h2>
+            <h2 className="text-4xl font-bold">I&apos;m Dicky Darmawan</h2>
             <h4 className="capitalize text-xl font-light py-5 dark:text-gray-400">
               a lead&nbsp;
               <span className="text-galaxy_core dark:text-galaxy font-semibold">

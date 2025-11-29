@@ -50,7 +50,7 @@ export default function TestimonialSection() {
                     (testimonial, idx) => (
                       <div
                         key={idx}
-                        className="flex flex-col sm:flex-row items-center sm:items-start bg-white p-5 rounded-sm shadow-md border-[0.1px] border-galaxy_core"
+                        className="flex flex-col sm:flex-row items-center sm:items-start bg-slate-100 p-5 rounded-sm shadow-md border-[0.1px] border-galaxy_core"
                       >
                         <Image
                           priority
@@ -64,7 +64,7 @@ export default function TestimonialSection() {
                           <p className="text-zinc-500 mt-2 sm:mt-0">
                             {testimonial.text}
                           </p>
-                          <h3 className="font-semibold mt-2">
+                          <h3 className="font-semibold text-black mt-2">
                             {testimonial.name}
                           </h3>
                           <p className="text-gray-500">

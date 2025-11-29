@@ -24,7 +24,7 @@ body {
 html.dark {
   background-color: var(--color-galaxy_dark);
   color: white;
-  border-color: var(--color-galaxy_core);
+  border-color: var(--color-galaxy);
 }
 
 @keyframes blink {

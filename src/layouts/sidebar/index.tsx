@@ -13,7 +13,7 @@ export default function Sidebar({ isOpen }: { isOpen: boolean }) {
         isOpen ? "translate-x-0" : "-translate-x-full"
       } lg:translate-x-0 lg:block`}
     >
-      <div className="h-screen w-24 shadow-2xl transition-colors duration-300 flex flex-col">
+      <div className="bg-white text-galaxy_core h-screen w-24 shadow-2xl transition-colors duration-300 flex flex-col">
         <div className="flex flex-col flex-1">
           <div className="h-11 bg-galaxy_core flex items-center justify-center">
             <h1 className="text-center text-white font-semibold">dicky.</h1>
