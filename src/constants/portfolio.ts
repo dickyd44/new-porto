@@ -1,4 +1,5 @@
 import BaliSmartInvestment from "@/src/assets/portfolio/balismartinvestment.jpeg";
+import AliyahRizq from "@/src/assets/portfolio/aliyahrizq.jpeg";
 import UfcClone from "@/src/assets/portfolio/ufc-clone.jpeg";
 import DashboardJobs from "@/src/assets/portfolio/dashboard-management-jobs.jpeg";
 import ShopifyClone from "@/src/assets/portfolio/shopify-clone.jpeg";
@@ -12,6 +13,13 @@ export const IMAGES = [
     description:
       "Making website properties villa, apartment, cabin and another properties.",
     link: "https://balismartinvestment.com/",
+  },
+  {
+    photo: AliyahRizq,
+    project: "Aliyah Rizq Agriculture",
+    description:
+      "Web-based Aqiqah & Qurban service website featuring package catalogs, product details, and easy online ordering, designed to be responsive and user-friendly.",
+    link: "https://aliyahrizq.id/",
   },
   {
     photo: Agencify,
